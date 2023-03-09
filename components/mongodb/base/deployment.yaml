@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mongodb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:oJme9-mongodb
+      - image: quay.io/redhat-appstudio/user-workload@sha256:17c4f1d441aca0f99b3e73689e25ea0f304d34510015285d8d5f32275f3055bc
         imagePullPolicy: Always
         name: container-image
         ports:
